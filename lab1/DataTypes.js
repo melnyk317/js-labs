@@ -1,6 +1,7 @@
 "use strict";
 
 const values = [true, "cazzo", null, 13, false, 17.17, false, "mannagia", -3];
+const values_1 = [true, null, 13, false, 17.17, false, -3];
 
 const types = {
     number: 0,
@@ -25,3 +26,5 @@ for (const val of values) {
             break;
     }
 }
+
+console.log(types);
