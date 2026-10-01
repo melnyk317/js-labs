@@ -2,12 +2,12 @@
 
 const obj = {
     n: 5
-}
+};
 
 function inc(num) {
     num.n = ++num.n;
 }
 
-console.dir(obj);
+console.log(obj);
 inc(obj);
-console.dir(obj);
+console.log(obj);
