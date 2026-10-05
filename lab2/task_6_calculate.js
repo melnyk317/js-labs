@@ -18,4 +18,5 @@ const calculate = () => {
     for (let i = 0; i <= max; i++) {
         result[i] = average(square(i), cube(i));
     }
+    return result;
 }
